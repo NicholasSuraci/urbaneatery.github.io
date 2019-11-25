@@ -421,3 +421,11 @@ input {
     }
 
 }
+
+@media screen and (max-width: 850px) {
+    .welcome-container {
+        margin: 5rem 0;
+        padding: 5rem 0;
+    }
+
+}
