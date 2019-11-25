@@ -30,6 +30,8 @@ body {
 nav {
     height: 10vh;
     background: #fff;
+    margin-bottom: 1rem;
+    padding-bottom: 1rem;
 }
 
 
