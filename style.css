@@ -279,27 +279,6 @@ input {
 
 }
 
-#testimonials {
-    text-align: center;
-
-}
-
-.testimonial-container img {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    display: flex;
-    flex-direction: row;
-    align-self: left;
-    justify-content: left;
-}
-
-.testimonial-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-
-}
 
 .grid-container {
     margin-top: 5rem;
@@ -423,10 +402,17 @@ input {
 }
 
 @media screen and (max-width: 850px) {
-    .welcome-container {
+
+    .welcome-container,
+    .about-container,
+    .order-container {
         margin: 2rem 0;
         padding: 5rem 0;
     }
 
+    #order-form {
+
+        margin-bottom: 60%;
+    }
 
 }
